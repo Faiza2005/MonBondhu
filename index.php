@@ -608,7 +608,7 @@
                 <a href="#about">About</a>
                 <a href="#support">Support</a>
                 <a href="#contact">Contact</a>
-                <button class="btn-login w-100 mt-2" onclick="openLogin()">Login</button>
+                <a href="login.php" class="btn-login">Login</a>
             </div>
         </div>
     </nav>
@@ -630,9 +630,9 @@
                     </p>
                     
                     <div class="d-flex flex-wrap">
-                        <button class="btn-primary-custom pulse" onclick="openSignup()">
-                            <i class="fas-fa-get-started"></i>Get Started
-                        </button>
+                        <a href="signup.php" class="btn-primary-custom pulse">
+    Get Started
+</a>
 
                     </div>
                 </div>
@@ -857,8 +857,8 @@
                     </form>
                 </div>
             </div>
+        </div> 
         </div>
-    </div>
 
     <!-- Bootstrap & Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
